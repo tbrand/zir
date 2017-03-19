@@ -1,0 +1,7 @@
+void hello();
+
+int main(){
+  <-%ruby 10.times do |i| ->
+  <-@ruby puts "hello();" ->
+  <-%ruby end ->
+}

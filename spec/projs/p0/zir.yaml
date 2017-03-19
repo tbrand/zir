@@ -1,0 +1,8 @@
+targets:
+  - test.c.z
+
+ids:
+  rb0: ruby @file
+  rb1: ruby @file
+
+finally: gcc test.c -o test

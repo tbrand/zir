@@ -1,0 +1,13 @@
+name: zir
+version: 0.1.0
+
+authors:
+  - taicsuzu <taicsuzu@yahoo-corp.jp>
+
+crystal: 0.21.1
+
+license: MIT
+
+targets:
+  zir:
+    main: src/zir/bin/bin.cr

@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+void hello(){
+  <-%python import math ->
+  <-@python print "printf(\"Hello zir! PI is %f\\n\");" % math.pi ->
+}

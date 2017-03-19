@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+  <-%rb0 10.times do |i| ->
+  <-@rb0 puts "int v#{i} = #{i};" ->
+  <-%rb0 end ->
+
+  int res = 0;
+			
+  <-%rb1 10.times do |i| ->
+  <-@rb1 puts "res += v#{i};" ->
+  <-%rb1 end ->
+
+  printf("The result is %d\n", res);
+  return 0;
+}

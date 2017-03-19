@@ -1,0 +1,10 @@
+
+targets:
+  - test*.c.z
+
+ids:
+  ruby: ruby @file
+  python: python @file
+
+finally:
+  make
