@@ -1,6 +1,8 @@
 # zir
 
 [![Build Status](https://travis-ci.org/tbrand/zir.svg?branch=master)](https://travis-ci.org/tbrand/zir)
+[![Dependency Status](https://shards.rocks/badge/github/tbrand/zir/status.svg)](https://shards.rocks/github/tbrand/zir)
+[![devDependency Status](https://shards.rocks/badge/github/tbrand/zir/dev_status.svg)](https://shards.rocks/github/tbrand/zir)
 
 **zir** is a command line tool that realizes to write macros in any scripts into any languages.  
 See an example. (The macro is written in Ruby)
