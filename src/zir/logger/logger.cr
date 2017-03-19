@@ -3,12 +3,12 @@ require "logger"
 module Zir
   class Logger
     @@logger : Logger?
-    @@quite  : Bool = false
+    @@quiet  : Bool = false
 
     def initialize
     end
 
-    def self.set_quite(@@quite : Bool)
+    def self.set_quiet(@@quiet : Bool)
     end
 
     def self.i(msg)
@@ -17,7 +17,7 @@ module Zir
     end
 
     def i(msg)
-      puts "\e[36m[zir]\e[m #{msg}" unless @@quite
+      puts "\e[36m[zir]\e[m #{msg}" unless @@quiet
     end
 
     def self.w(msg)
@@ -26,7 +26,7 @@ module Zir
     end
 
     def w(msg)
-      puts "\e[33m[zir]\e[m #{msg}" unless @@quite
+      puts "\e[33m[zir]\e[m #{msg}" unless @@quiet
     end
 
     def self.e(msg)
@@ -35,7 +35,7 @@ module Zir
     end
 
     def e(msg)
-      puts "\e[31m[zir]\e[m #{msg}" unless @@quite
+      puts "\e[31m[zir]\e[m #{msg}" unless @@quiet
     end
   end
 end

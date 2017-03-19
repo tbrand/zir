@@ -19,8 +19,8 @@ module Zir
           exit
         end
 
-        parser.on "-q", "--quite", "Disable all logs (Default is not quite)" do
-          Logger.set_quite(true)
+        parser.on "-q", "--quiet", "Disable all logs (Default is not quiet)" do
+          Logger.set_quiet(true)
         end
 
         parser.on "-h", "--help", "Show the helps" do
